@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "roboto regular" ;
+    src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto bold" ;
+    src: url(../fonts/Roboto/static/Roboto-Bold.ttf);
+}
+
+nav {
+    font-family: "roboto bold",sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner {
+    text-align: center;
+    background-image: url(../img/banner.jpg);
+    background-position : center;
+    background-size: cover;
+    background-position-y: 47%;
+    margin-bottom: 2rem;
+    color: white;
+    padding-bottom: 11%;
+}
+
+
+#banner h1 {
+    font-size: 4rem;
+    color: white;
+    position: relative;
+    top: 7rem;
+    font-family: "roboto regular";
+}
+
+#banner p {
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    top: 9rem;
+    font-family: "roboto regular";
+}
+
+
+.contlieu {
+    display: flex;
+    flex-direction: row;
+}
+
+.carte {
+    padding-bottom: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 0px 1px 10px grey;
+    border-radius: 5px
+}
+
+#imgparis {
+    background-image: url(../img/paris.jpg);
+    padding: 6rem;
+    height: 20%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10%;
+}
+
+.carte h2 {
+border-bottom: solid 1px;
+border-color:  black;
+font-family: "roboto bold";
+}
